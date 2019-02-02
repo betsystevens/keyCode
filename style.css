@@ -1,0 +1,23 @@
+body {
+	background: #034f84;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #b2b2b2;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+#code {
+	font-size: 15em;
+}
+button {
+	font-size: 3em;
+	border-radius: 12px;
+	background-color: #b2b2b2;
+	min-width: 1.5em;
+}

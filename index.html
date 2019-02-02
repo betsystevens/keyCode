@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Key Code</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+	<div id="code">65</div>
+	<button type="button">a</button>
+</div>
+
+<script>
+
+	function getKeyCode(e) {
+		key.innerHTML = e.key;
+		code.innerHTML = e.keyCode;
+	}
+
+  const key = document.querySelector('button');
+  const code = document.querySelector('#code')
+	document.addEventListener('keydown', getKeyCode);
+
+</script>
+
+
+</body>
+</html>
